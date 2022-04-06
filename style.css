@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+   display: flex; 
+   align-items: center; /*centro contenido verticalmente*/ 
+   background-color: chocolate;
+   margin-bottom: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 8px;
+   padding-right: 8px;
+}
+
+.menu .container__logo img{
+    width: 100px;
+    height: 70px;
+}
+
+
+.menu nav ul{
+    /* elimino los puntos negros de la lista */
+    list-style: none; 
+}
+
+.menu nav ul li{
+    /* pongo los item uno al lado del otro*/
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+/* Estilos del nav */
+.menu nav{
+    width: 100%;
+    text-align: end;
+}
+
+.prueba{
+    height: 400px;
+    background-color: red;
+}
